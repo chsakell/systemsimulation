@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfRestfulServiceComp", "WcfRestfulServiceComp\WcfRestfulServiceComp.csproj", "{3BAB8FB4-A150-4A03-BD47-C52E6E109195}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsumeWcfRestfulServiceClient", "ConsumeWcfRestfulServiceClient\ConsumeWcfRestfulServiceClient.csproj", "{6CFBA421-1D06-41A9-97E1-A563CF00D7E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadsReadWcfQueue", "ThreadsReadWcfQueue\ThreadsReadWcfQueue.csproj", "{326BCF30-37B1-4CB4-80B5-57ED4F7059F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceReadSecondQueue", "WcfServiceReadSecondQueue\WcfServiceReadSecondQueue.csproj", "{10E0B38F-2EAD-4A43-96A7-CC1A20708450}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{80BD5F0B-148D-4A87-90C5-79B75D6CF89E}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3BAB8FB4-A150-4A03-BD47-C52E6E109195}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BAB8FB4-A150-4A03-BD47-C52E6E109195}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BAB8FB4-A150-4A03-BD47-C52E6E109195}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BAB8FB4-A150-4A03-BD47-C52E6E109195}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CFBA421-1D06-41A9-97E1-A563CF00D7E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CFBA421-1D06-41A9-97E1-A563CF00D7E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CFBA421-1D06-41A9-97E1-A563CF00D7E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CFBA421-1D06-41A9-97E1-A563CF00D7E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326BCF30-37B1-4CB4-80B5-57ED4F7059F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326BCF30-37B1-4CB4-80B5-57ED4F7059F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326BCF30-37B1-4CB4-80B5-57ED4F7059F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326BCF30-37B1-4CB4-80B5-57ED4F7059F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E0B38F-2EAD-4A43-96A7-CC1A20708450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E0B38F-2EAD-4A43-96A7-CC1A20708450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E0B38F-2EAD-4A43-96A7-CC1A20708450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E0B38F-2EAD-4A43-96A7-CC1A20708450}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
